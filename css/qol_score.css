@@ -34,7 +34,7 @@
   height: 50px;
   width: 50px;
   z-index: 1001;
-  overflow: visible;
+  /* overflow: visible; */
 }
 
 .icon-bar {
