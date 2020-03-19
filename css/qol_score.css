@@ -1,0 +1,254 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: rgba(78, 119, 173, 0.9);
+  font-size: 17px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 38px;
+  background-color: white;
+  z-index: 1001;
+}
+
+.nav-link-form {
+  color: rgba(78, 119, 173, 0.9);
+  font-size: 17px;
+  font-family: "Helvetica", sans-serif;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 38px;
+  background-color: rgba(224, 224, 224, 0.9);
+  z-index: 1001;
+  border-radius: 2px;
+}
+
+.navbar-toggle {
+  background-color: white;
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+  z-index: 1001;
+}
+
+.icon-bar {
+  background-color: black;
+  margin-left: 3px;
+}
+
+#main {
+  padding: 20px 30px 20px 30px;
+  margin: auto;
+  box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+  border-radius: 0px;
+  height: 100%;
+}
+
+.control-label {
+  color:rgba(50, 50, 50, 0.8);
+  font-family: "Helvetica", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h2 {
+  color:rgba(78, 119, 173, 0.9);
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  text-align: left;
+}
+
+.description {
+  color:rgba(50, 50, 50, 0.8);
+  font-family: "Helvetica", sans-serif;
+  text-align: justify;
+}
+
+ul {
+  color:rgba(50, 50, 50, 0.8);
+  font-family: "Helvetica", sans-serif;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  padding-top:10px;
+  height: 100px;
+}
+
+#consent_instructions {
+  margin-bottom: 0px;
+  padding-top:10px;
+  height: 100px;
+  border-radius: 0px
+}
+
+.navbar-footer {
+  margin-bottom: 0px;
+  padding-top:0px;
+  height: 75px;
+  text-align: center;
+}
+
+h4 {
+  color: rgba(78, 119, 173, 0.9);
+  font-size: 17px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.img-deerhound {
+  background-size: center;
+  height: 500px;
+  border-radius: 1px;
+}
+
+h5 {
+  color: black;
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+}
+
+h6 {
+  color: rgba(78, 119, 173, 0.9);
+  font-size: 17px;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+#myid {
+  margin-top: 4px;
+  color: rgba(78, 119, 173, 0.9);
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/*Remove images for small screens*/
+@media only screen and (max-width:1200px){
+
+  .img-deerhound {
+    background-size: center;
+    height: 0px;
+    border-radius: 1px;
+  }
+
+  #main {
+    padding: 20px 30px 20px 30px;
+    margin: 40px auto auto auto;
+    box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+    border-radius: 0px;
+    height: 100%;
+  }
+
+  h5 {
+    color: black;
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+  }
+
+  h6 {
+    color: rgba(78, 119, 173, 0.9);
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+  }
+
+  #myid {
+    margin-top: 0px;
+    color: rgba(78, 119, 173, 0.9);
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
+  #logo {
+    height:75px;
+    width:240px;
+  }
+
+  .jumbotron {
+    margin-bottom: 0px;
+    padding-top:10px;
+    height: 130px;
+  }
+
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+
+}
+
+/*Keep images for large screens*/
+@media only screen and (min-width:1201px){
+
+  .img-deerhound {
+    background-size: center;
+    height: 500px;
+    border-radius: 1px;
+  }
+
+  #main {
+    padding: 20px 30px 20px 30px;
+    margin: auto;
+    box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+    border-radius: 0px;
+    height: 100%;
+  }
+
+  h5 {
+    color: black;
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+    text-align: right;
+  }
+
+  #logo {
+    height:87px;
+    width:280px;
+  }
+
+}
