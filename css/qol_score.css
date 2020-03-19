@@ -37,10 +37,6 @@
   /* overflow: visible; */
 }
 
-.navbar-collapse.collapse:not(.in) {
-        display: none !important;
-    }
-
 .icon-bar {
   background-color: black;
   margin-left: 3px;
@@ -89,7 +85,7 @@ ul {
 #consent_instructions {
   margin-bottom: 0px;
   padding-top:10px;
-  height: 100px;
+  height: 80px;
   border-radius: 0px
 }
 
@@ -188,6 +184,12 @@ h6 {
     margin-bottom: 0px;
     padding-top:10px;
     height: 130px;
+  }
+
+  #consent_instructions {
+    margin-bottom: 0px;
+    padding-top:10px;
+    height: 90px;
   }
 
   .navbar-header {
