@@ -37,10 +37,10 @@
   /* overflow: visible; */
 }
 
-.navbar-collapse.collapse.in {
-  display: inline-block;
-}
-  
+.navbar-collapse.collapse:not(.in) {
+        display: none !important;
+    }
+
 .icon-bar {
   background-color: black;
   margin-left: 3px;
