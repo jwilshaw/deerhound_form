@@ -6,7 +6,7 @@
 
 .nav-link {
   color: rgba(78, 119, 173, 0.9);
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Helvetica", sans-serif;
   font-weight: lighter;
   margin-left: 3px;
@@ -18,7 +18,7 @@
 
 .nav-link-form {
   color: rgba(78, 119, 173, 0.9);
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Helvetica", sans-serif;
   margin-left: 3px;
   margin-right: 3px;
@@ -109,6 +109,14 @@ h4 {
   background-size: center;
   height: 500px;
   border-radius: 1px;
+}
+
+.img-logo {
+  background-size: center;
+  height: 100px;
+  border-radius: 1px;
+  margin: auto;
+  display: block;
 }
 
 h5 {
