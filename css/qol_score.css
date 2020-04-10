@@ -262,6 +262,11 @@ h6 {
     border-radius: 1px;
   }
 
+  #blood_description {
+    overflow-y:scroll;
+    height:500px;
+  }
+
   #main {
     padding: 20px 30px 20px 30px;
     margin: auto;
