@@ -111,9 +111,25 @@ h4 {
   border-radius: 1px;
 }
 
-.img-logo {
+.img-logo1 {
+  background-size: center;
+  height: 130px;
+  border-radius: 1px;
+  margin: auto;
+  display: block;
+}
+
+.img-logo2 {
   background-size: center;
   height: 100px;
+  border-radius: 1px;
+  margin: auto;
+  display: block;
+}
+
+.img-logo3 {
+  background-size: center;
+  height: 150px;
   border-radius: 1px;
   margin: auto;
   display: block;
