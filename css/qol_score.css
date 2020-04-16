@@ -71,7 +71,19 @@ h2 {
   text-align: justify;
 }
 
+.description_address {
+  color:rgba(50, 50, 50, 0.8);
+  font-family: "Helvetica", sans-serif;
+  text-align: justify;
+  /*padding-left: 10px;*/
+}
+
 ul {
+  color:rgba(50, 50, 50, 0.8);
+  font-family: "Helvetica", sans-serif;
+}
+
+ol {
   color:rgba(50, 50, 50, 0.8);
   font-family: "Helvetica", sans-serif;
 }
@@ -113,22 +125,6 @@ h4 {
 
 .img-logo1 {
   background-size: center;
-  height: 130px;
-  border-radius: 1px;
-  margin: auto;
-  display: block;
-}
-
-.img-logo2 {
-  background-size: center;
-  height: 100px;
-  border-radius: 1px;
-  margin: auto;
-  display: block;
-}
-
-.img-logo3 {
-  background-size: center;
   height: 150px;
   border-radius: 1px;
   margin: auto;
@@ -162,6 +158,12 @@ h6 {
   .img-deerhound {
     background-size: center;
     height: 0px;
+    border-radius: 1px;
+  }
+
+  .img-tube {
+    background-size: center;
+    height: 500px;
     border-radius: 1px;
   }
 
@@ -251,6 +253,24 @@ h6 {
       display:block !important;
   }
 
+  .img-logo2 {
+    background-size: center;
+    height: 75px;
+    border-radius: 1px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .img-logo3 {
+    background-size: center;
+    height: 100px;
+    border-radius: 1px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+
 }
 
 /*Keep images for large screens*/
@@ -259,6 +279,13 @@ h6 {
   .img-deerhound {
     background-size: center;
     height: 500px;
+    border-radius: 1px;
+  }
+
+  .img-tube {
+    background-size: center;
+    height: 500px;
+    width: 330px;
     border-radius: 1px;
   }
 
@@ -285,6 +312,22 @@ h6 {
   #logo {
     height:87px;
     width:280px;
+  }
+
+  .img-logo2 {
+    background-size: center;
+    height: 100px;
+    border-radius: 1px;
+    margin: auto;
+    display: block;
+  }
+
+  .img-logo3 {
+    background-size: center;
+    height: 150px;
+    border-radius: 1px;
+    margin: auto;
+    display: block;
   }
 
 }
